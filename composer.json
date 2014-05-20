@@ -1,0 +1,24 @@
+{
+    "name": "metabor/cash-flow",
+    "description": "Library for working with cash-flow, annuity, net present value and interest",
+    "keywords": ["cash-flow", "annuity", "net present value", "interest"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Oliver Tischlinger",
+            "email": "oliver.tischlinger@metabor.de"
+        }
+    ],
+    "require": {
+        "php": ">=5.3"
+    },
+    "suggest": {
+    },
+    "autoload": {
+        "psr-0": {
+			"Metabor\\": "src/"
+        }
+    },
+    "prefer-stable":true,
+    "minimum-stability":"dev"
+}
